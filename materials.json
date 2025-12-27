@@ -1,60 +1,159 @@
 
 {
-  "generated_at": "2025-12-27T22:52:12",
-  "vault_name": "영어 이미지 2021년 1월 30일",
+  "generated_at": "2025-12-28T10:00:00",
+  "vault_name": "SWEEP_LEARNING_DB",
   "mappings": [
     {
       "code": 1,
       "name": "전치사구",
       "material_count": 3,
       "materials": [
-        {
-          "filename": "전치사의 비밀.html",
-          "path": "HTML 영어 자료/전치사/전치사의 비밀.html",
-          "folder": "HTML 영어 자료/전치사",
-          "type": "HTML",
-          "source": "기타",
-          "link": "obsidian://open?vault=영어%20이미지%202021년%201월%2030일&file=HTML%20영어%20자료%2F전치사%2F전치사의%20비밀.html"
-        },
-        {
-          "filename": "전치사구_개념정리.jpg",
-          "path": "이미지 자료/전치사/전치사구_개념정리.jpg",
-          "folder": "이미지 자료/전치사",
-          "type": "image",
-          "source": "천일문",
-          "link": "obsidian://open?vault=영어%20이미지%202021년%201월%2030일&file=이미지%20자료%2F전치사%2F전치사구_개념정리.jpg"
-        },
-        {
-          "filename": "전치사_심화.pdf",
-          "path": "PDF 자료/전치사/전치사_심화.pdf",
-          "folder": "PDF 자료/전치사",
-          "type": "PDF",
-          "source": "쎄듀",
-          "link": "obsidian://open?vault=영어%20이미지%202021년%201월%2030일&file=PDF%20자료%2F전치사%2F전치사_심화.pdf"
-        }
+        { "filename": "전치사의_모든것.pdf", "path": "PDF/전치사/전치사의_모든것.pdf", "folder": "PDF/전치사", "type": "PDF", "source": "쎄듀", "link": "obsidian://open?file=전치사" },
+        { "filename": "in_on_at_그림설명.jpg", "path": "IMG/전치사/in_on_at.jpg", "folder": "IMG/전치사", "type": "Image", "source": "천일문", "link": "obsidian://open?file=전치사_이미지" },
+        { "filename": "전치사구_개념.html", "path": "HTML/전치사/개념.html", "folder": "HTML/전치사", "type": "HTML", "source": "자체제작", "link": "obsidian://open?file=전치사_개념" }
+      ]
+    },
+    {
+      "code": 2,
+      "name": "to부정사(형)",
+      "material_count": 2,
+      "materials": [
+        { "filename": "to부정사_형용사적용법.pdf", "path": "PDF/ToInf/Adjective.pdf", "folder": "PDF/ToInf", "type": "PDF", "source": "EBS", "link": "obsidian://open?file=to_adj" },
+        { "filename": "명사수식_공식.png", "path": "IMG/ToInf/formula.png", "folder": "IMG/ToInf", "type": "Image", "source": "Kimi", "link": "obsidian://open?file=to_formula" }
+      ]
+    },
+    {
+      "code": 3,
+      "name": "to부정사(부)",
+      "material_count": 2,
+      "materials": [
+        { "filename": "부사적용법_해석법.txt", "path": "TXT/ToInf/Adverb.txt", "folder": "TXT/ToInf", "type": "Text", "source": "천일문", "link": "obsidian://open?file=to_adv" },
+        { "filename": "목적_원인_결과.jpg", "path": "IMG/ToInf/usages.jpg", "folder": "IMG/ToInf", "type": "Image", "source": "쎄듀", "link": "obsidian://open?file=to_usages" }
       ]
     },
     {
       "code": 4,
       "name": "현재분사",
+      "material_count": 4,
+      "materials": [
+        { "filename": "현재분사_능동의의미.pdf", "path": "PDF/Participle/Present.pdf", "folder": "PDF/Participle", "type": "PDF", "source": "천일문", "link": "obsidian://open?file=ing_active" },
+        { "filename": "v-ing_vs_gerund.html", "path": "HTML/Participle/VS.html", "folder": "HTML/Participle", "type": "HTML", "source": "Kimi", "link": "obsidian://open?file=ing_vs_gerund" },
+        { "filename": "감정분사_정리.png", "path": "IMG/Participle/Emotion.png", "folder": "IMG/Participle", "type": "Image", "source": "자체제작", "link": "obsidian://open?file=emotion_ing" },
+        { "filename": "분사구문과의_차이.txt", "path": "TXT/Participle/Diff.txt", "folder": "TXT/Participle", "type": "Text", "source": "EBS", "link": "obsidian://open?file=ing_diff" }
+      ]
+    },
+    {
+      "code": 5,
+      "name": "과거분사",
+      "material_count": 4,
+      "materials": [
+        { "filename": "과거분사_수동의비밀.pdf", "path": "PDF/Participle/Past.pdf", "folder": "PDF/Participle", "type": "PDF", "source": "쎄듀", "link": "obsidian://open?file=pp_passive" },
+        { "filename": "3단변화_암기표.jpg", "path": "IMG/Participle/Table.jpg", "folder": "IMG/Participle", "type": "Image", "source": "천일문", "link": "obsidian://open?file=verb_table" },
+        { "filename": "pp_후치수식_예문.html", "path": "HTML/Participle/Examples.html", "folder": "HTML/Participle", "type": "HTML", "source": "자체제작", "link": "obsidian://open?file=pp_examples" },
+        { "filename": "자동사의_과거분사.txt", "path": "TXT/Participle/Intransitive.txt", "folder": "TXT/Participle", "type": "Text", "source": "Kimi", "link": "obsidian://open?file=pp_intransitive" }
+      ]
+    },
+    {
+      "code": 6,
+      "name": "형용사구",
+      "material_count": 1,
+      "materials": [
+        { "filename": "형용사구_패턴.pdf", "path": "PDF/AdjPhrase/Pattern.pdf", "folder": "PDF/AdjPhrase", "type": "PDF", "source": "기타", "link": "obsidian://open?file=adj_phrase" }
+      ]
+    },
+    {
+      "code": 7,
+      "name": "관계사(주)",
+      "material_count": 3,
+      "materials": [
+        { "filename": "주격관계대명사_원리.mp4", "path": "Video/Rel/Subject.mp4", "folder": "Video/Rel", "type": "Video", "source": "EBS", "link": "obsidian://open?file=rel_subj_video" },
+        { "filename": "수일치_함정.jpg", "path": "IMG/Rel/Agreement.jpg", "folder": "IMG/Rel", "type": "Image", "source": "쎄듀", "link": "obsidian://open?file=rel_trap" },
+        { "filename": "who_vs_which.pdf", "path": "PDF/Rel/WhoWhich.pdf", "folder": "PDF/Rel", "type": "PDF", "source": "천일문", "link": "obsidian://open?file=who_which" }
+      ]
+    },
+    {
+      "code": 8,
+      "name": "관계사(목)",
       "material_count": 2,
       "materials": [
-        {
-          "filename": "분사_예제01.jpg",
-          "path": "이미지 자료/분사/분사_예제01.jpg",
-          "folder": "이미지 자료/분사",
-          "type": "image",
-          "source": "천일문",
-          "link": "obsidian://open?vault=영어%20이미지%202021년%201월%2030일&file=이미지%20자료%2F분사%2F분사_예제01.jpg"
-        },
-        {
-          "filename": "Kimi_분사특강.html",
-          "path": "HTML 영어 자료/분사/Kimi_분사특강.html",
-          "folder": "HTML 영어 자료/분사",
-          "type": "HTML",
-          "source": "Kimi",
-          "link": "obsidian://open?vault=영어%20이미지%202021년%201월%2030일&file=HTML%20영어%20자료%2F분사%2FKimi_분사특강.html"
-        }
+        { "filename": "목적격_생략.html", "path": "HTML/Rel/Omission.html", "folder": "HTML/Rel", "type": "HTML", "source": "자체제작", "link": "obsidian://open?file=rel_omission" },
+        { "filename": "전치사_이동.pdf", "path": "PDF/Rel/Prep.pdf", "folder": "PDF/Rel", "type": "PDF", "source": "Kimi", "link": "obsidian://open?file=rel_prep" }
+      ]
+    },
+    {
+      "code": 9,
+      "name": "관계사(소)",
+      "material_count": 1,
+      "materials": [
+        { "filename": "소유격_whose_완전한문장.jpg", "path": "IMG/Rel/Whose.jpg", "folder": "IMG/Rel", "type": "Image", "source": "천일문", "link": "obsidian://open?file=whose" }
+      ]
+    },
+    {
+      "code": 10,
+      "name": "관계부사",
+      "material_count": 2,
+      "materials": [
+        { "filename": "관계부사_4총사.pdf", "path": "PDF/RelAdv/FourTypes.pdf", "folder": "PDF/RelAdv", "type": "PDF", "source": "EBS", "link": "obsidian://open?file=rel_adv_types" },
+        { "filename": "the_way_how_불가.txt", "path": "TXT/RelAdv/How.txt", "folder": "TXT/RelAdv", "type": "Text", "source": "쎄듀", "link": "obsidian://open?file=the_way_how" }
+      ]
+    },
+    {
+      "code": 11,
+      "name": "복합관계사",
+      "material_count": 1,
+      "materials": [
+        { "filename": "ever_해석법.html", "path": "HTML/Rel/Ever.html", "folder": "HTML/Rel", "type": "HTML", "source": "자체제작", "link": "obsidian://open?file=ever" }
+      ]
+    },
+    {
+      "code": 12,
+      "name": "동격 that",
+      "material_count": 2,
+      "materials": [
+        { "filename": "동격that_vs_관계사which.pdf", "path": "PDF/That/Appositive.pdf", "folder": "PDF/That", "type": "PDF", "source": "천일문", "link": "obsidian://open?file=appositive_that" },
+        { "filename": "추상명사_리스트.jpg", "path": "IMG/That/Nouns.jpg", "folder": "IMG/That", "type": "Image", "source": "Kimi", "link": "obsidian://open?file=abstract_nouns" }
+      ]
+    },
+    {
+      "code": 13,
+      "name": "동격 명사",
+      "material_count": 1,
+      "materials": [
+        { "filename": "콤마의_기능.txt", "path": "TXT/Comma.txt", "folder": "TXT", "type": "Text", "source": "기타", "link": "obsidian://open?file=comma" }
+      ]
+    },
+    {
+      "code": 14,
+      "name": "분사구문",
+      "material_count": 3,
+      "materials": [
+        { "filename": "분사구문_만드는법.gif", "path": "IMG/ParticipleConst/HowTo.gif", "folder": "IMG/ParticipleConst", "type": "Image", "source": "EBS", "link": "obsidian://open?file=participle_const" },
+        { "filename": "접속사_의미살리기.pdf", "path": "PDF/ParticipleConst/Conjunction.pdf", "folder": "PDF/ParticipleConst", "type": "PDF", "source": "쎄듀", "link": "obsidian://open?file=meaning" },
+        { "filename": "with_분사구문.html", "path": "HTML/ParticipleConst/With.html", "folder": "HTML/ParticipleConst", "type": "HTML", "source": "천일문", "link": "obsidian://open?file=with" }
+      ]
+    },
+    {
+      "code": 15,
+      "name": "관계형용사",
+      "material_count": 1,
+      "materials": [
+        { "filename": "which_명사_해석.jpg", "path": "IMG/Rel/Adj.jpg", "folder": "IMG/Rel", "type": "Image", "source": "자체제작", "link": "obsidian://open?file=rel_adj" }
+      ]
+    },
+    {
+      "code": 16,
+      "name": "삽입절",
+      "material_count": 1,
+      "materials": [
+        { "filename": "주어동사_삽입.pdf", "path": "PDF/Insertion.pdf", "folder": "PDF", "type": "PDF", "source": "Kimi", "link": "obsidian://open?file=insertion" }
+      ]
+    },
+    {
+      "code": 17,
+      "name": "유사관계사",
+      "material_count": 1,
+      "materials": [
+        { "filename": "as_than_but.html", "path": "HTML/Rel/Quasi.html", "folder": "HTML/Rel", "type": "HTML", "source": "기타", "link": "obsidian://open?file=quasi" }
       ]
     }
   ]
