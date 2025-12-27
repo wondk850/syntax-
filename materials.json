@@ -1,0 +1,61 @@
+
+{
+  "generated_at": "2025-12-27T22:52:12",
+  "vault_name": "영어 이미지 2021년 1월 30일",
+  "mappings": [
+    {
+      "code": 1,
+      "name": "전치사구",
+      "material_count": 3,
+      "materials": [
+        {
+          "filename": "전치사의 비밀.html",
+          "path": "HTML 영어 자료/전치사/전치사의 비밀.html",
+          "folder": "HTML 영어 자료/전치사",
+          "type": "HTML",
+          "source": "기타",
+          "link": "obsidian://open?vault=영어%20이미지%202021년%201월%2030일&file=HTML%20영어%20자료%2F전치사%2F전치사의%20비밀.html"
+        },
+        {
+          "filename": "전치사구_개념정리.jpg",
+          "path": "이미지 자료/전치사/전치사구_개념정리.jpg",
+          "folder": "이미지 자료/전치사",
+          "type": "image",
+          "source": "천일문",
+          "link": "obsidian://open?vault=영어%20이미지%202021년%201월%2030일&file=이미지%20자료%2F전치사%2F전치사구_개념정리.jpg"
+        },
+        {
+          "filename": "전치사_심화.pdf",
+          "path": "PDF 자료/전치사/전치사_심화.pdf",
+          "folder": "PDF 자료/전치사",
+          "type": "PDF",
+          "source": "쎄듀",
+          "link": "obsidian://open?vault=영어%20이미지%202021년%201월%2030일&file=PDF%20자료%2F전치사%2F전치사_심화.pdf"
+        }
+      ]
+    },
+    {
+      "code": 4,
+      "name": "현재분사",
+      "material_count": 2,
+      "materials": [
+        {
+          "filename": "분사_예제01.jpg",
+          "path": "이미지 자료/분사/분사_예제01.jpg",
+          "folder": "이미지 자료/분사",
+          "type": "image",
+          "source": "천일문",
+          "link": "obsidian://open?vault=영어%20이미지%202021년%201월%2030일&file=이미지%20자료%2F분사%2F분사_예제01.jpg"
+        },
+        {
+          "filename": "Kimi_분사특강.html",
+          "path": "HTML 영어 자료/분사/Kimi_분사특강.html",
+          "folder": "HTML 영어 자료/분사",
+          "type": "HTML",
+          "source": "Kimi",
+          "link": "obsidian://open?vault=영어%20이미지%202021년%201월%2030일&file=HTML%20영어%20자료%2F분사%2FKimi_분사특강.html"
+        }
+      ]
+    }
+  ]
+}
