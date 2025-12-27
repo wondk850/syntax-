@@ -1,25 +1,56 @@
 
 import { MaterialDB, MaterialMapping, LearningMaterial } from "../types";
 
+// ⚠️ [설정] 깃허브 Raw 파일 주소 적용
+const REMOTE_DB_URL = "https://raw.githubusercontent.com/wondk850/syntax-/main/materials.json"; 
+
 // Cached DB to avoid re-fetching/re-importing
 let dbCache: MaterialDB | null = null;
 
 export const MaterialService = {
   /**
-   * Lazily loads the materials.json file only when needed.
+   * Lazily loads the materials.json file.
+   * Priority: 1. Remote URL (if configured) -> 2. Local File -> 3. Empty Fallback
    */
   async loadDatabase(): Promise<MaterialDB> {
-    if (dbCache) return dbCache;
+    if (dbCache) {
+      // console.log("[MaterialService] Using cached DB.");
+      return dbCache;
+    }
 
+    // 1. Try fetching from Remote URL (GitHub) if configured
+    if (REMOTE_DB_URL && REMOTE_DB_URL.startsWith("http")) {
+      try {
+        console.log(`[MaterialService] Fetching from remote: ${REMOTE_DB_URL}`);
+        const response = await fetch(REMOTE_DB_URL);
+        
+        if (response.ok) {
+          const data = await response.json();
+          dbCache = data as MaterialDB;
+          console.log("[MaterialService] Remote DB loaded successfully.");
+          return dbCache;
+        } else {
+           console.warn(`[MaterialService] Remote fetch failed with status: ${response.status}`);
+        }
+      } catch (error) {
+        console.warn("[MaterialService] Remote fetch failed, falling back to local.", error);
+      }
+    }
+
+    // 2. Fallback to Local File
     try {
-      // Dynamic import for lazy loading (code splitting)
-      // This assumes materials.json is in the root or accessible via relative path
-      const module = await import('../materials.json');
-      // Handle both default export (if JSON module) or direct object
-      dbCache = (module.default || module) as MaterialDB;
+      // Using 'materials.json' works if the file is served at the project root
+      const response = await fetch('materials.json');
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      dbCache = data as MaterialDB;
       return dbCache;
     } catch (error) {
-      console.error("Failed to load materials.json", error);
+      console.error("[MaterialService] Failed to load local materials.json", error);
       // Return empty structure on failure to prevent app crash
       return { generated_at: "", vault_name: "", mappings: [] };
     }
